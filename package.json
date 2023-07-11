@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start ",
-    "json-server": "json-server --watch src/Database/db.json https://64add81a0d22f051eb3c4bcc--sage-daffodil-00771a.netlify.app/",
+    "json-server": "json-server --watch src/Database/db.json --host 127.0.0.1 --port 3000",
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
